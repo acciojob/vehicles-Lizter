@@ -8,7 +8,22 @@ public class Vehicle {
 
     public Vehicle(String name) {
         this.name=name;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCurrentSpeed() {
+        return currentSpeed;
+    }
+
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
     }
 
     public void setCurrentDirection(int currentDirection) {
