@@ -8,8 +8,16 @@ public class Vehicle {
 
     public Vehicle(String name) {
         this.name=name;
+
     }
 
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
+    }
+
+    public int getCurrentDirection(){
+        return currentDirection;
+    }
 
     public void steer(int direction){
         //direction is in degrees, add it to the current direction
